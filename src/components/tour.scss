@@ -1,0 +1,129 @@
+.tour {
+  background-color: #dbdbdb;
+}
+
+.tour__content {
+  padding: 75px 0 75px 0;
+}
+.tour__heading {
+  margin: 0;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+}
+.tour__line {
+  margin-top: 25px;
+  margin-bottom: 75px;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #710707;
+  border-radius: 0px;
+}
+.tour__list {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.tour__item {
+  margin-bottom: 75px;
+}
+.tour__link {
+  text-decoration: none;
+}
+.tour__img {
+  margin-bottom: 25px;
+}
+.tour__link-title {
+  margin: 0;
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.tour__link-line {
+  margin-top: 10px;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #710707;
+  border-radius: 0px;
+}
+.tour__link-text {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+}
+@media  (max-width: 1100px) {
+  .tour__heading {
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 75px;
+  }
+  .tour__link-title {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 3px;
+  }
+  .tour__link-text {
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+@media  (max-width: 840px) {
+  .tour__heading {
+    font-size: 40px;
+  }
+  .tour__list {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tour__link-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3px;
+  }
+  .tour__link-text {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+@media (max-width: 555px) {
+  .tour__heading {
+    font-size: 28px;
+    text-align: center;
+  }
+  .tour__img {
+    width: 280px;
+  }
+}
+@media  (max-width: 310px) {
+  .tour__heading {
+    font-size: 28px;
+    text-align: center;
+  }
+  .tour__img {
+    width: 220px;
+  }
+}
+
